@@ -1,0 +1,7 @@
+p =float(input("Enter the principle amount: "))
+r = float(input("Enter the interest rate(%): "))
+t = int(input ("Enter the time taken: "))
+Simple_Interest = (p*r*t)/100
+Total_Amount= (p + Simple_Interest)
+print(f"The Simple Interest of the given amount is: {Simple_Interest:.2f}" )
+print(f"Total amount to be paid : {Total_Amount: .2f}")
